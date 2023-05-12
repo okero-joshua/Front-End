@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html >
+<head>
+ 
+    <title>Change Calculator</title>
+    <link rel="stylesheet" href="ChangeCalculator.css">
+</head>
+<body>
+    <!--Main tag represents the main purpose of an application-->
+    <main>
+        <h1>Change Calculator</h1>
+        
+        <!-- Get a change value from a user-->
+        <div>
+        <label for="Change">Enter amount of change due(0-99):</label>
+        <input type="text" name="amountOfChange" id="amountOfChange">
+        <input type="button" value="Calculate" id ="Calculate">
+        </div>
+        <!-- Output for quarters, dimes, nickels, and pennies-->
+        <div>
+        <label for="Quarters">Quarters:</label>
+        <input type="text" name="Quarters" id="Quarters" disabled>
+        </div>
+        
+        <div>
+        <label for="Dimes">Dimes:</label>
+        <input type="text" name="Dimes" id="Dimes" disabled>
+        </div>
+        
+        <div>
+        <label for="Nickels">Nickels:</label>
+        <input type="text" name="Nickels" id="Nickels" disabled>
+        </div>
+        
+        <div>
+        <label for="Pennies">Pennies:</label>
+        <input type="text" name="Pennies" id="Pennies" disabled>
+        </div>
+    </main>
+    <script src="ChangeCalculator.js"></script>
+</body>
+</html>
