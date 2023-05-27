@@ -1,0 +1,31 @@
+/* I'm not sure why the body mods don't show up in the HTML*/
+body{
+    width: 510px;
+    border: 3px solid blue;
+}
+
+h1{
+    color: blue;
+}
+label{
+    display: inline-block;
+    width: 3em;
+    text-align: right;
+}
+#scores{
+    width: 10em;
+    text-align: left;
+}
+input{
+    margin-left: 1em;
+}
+div{
+    margin-bottom: 0.5em;
+}
+
+#nameError{
+    color: red;
+}
+#scoreError{
+    color: red;
+}
