@@ -1,0 +1,23 @@
+/*I can't figure out why the body frame it's so long in the webpage*/
+body{
+    width: 400px;
+    border: 3px solid blue;
+}
+h1{
+    color: blue;
+}
+label{
+    display: inline-block;
+    width:11em;
+    text-align: right;
+}
+fieldset{
+    margin-bottom: 1em;
+}
+#seconds{
+    margin-right: 0.5em;
+}
+
+#start, #Stop, #reset{
+    margin-right: 10px;
+}
